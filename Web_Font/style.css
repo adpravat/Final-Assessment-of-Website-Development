@@ -1,0 +1,51 @@
+/* General setup */
+@font-face {
+    font-family: 'acmeregular';
+    src: url('Fonts/acme-regular-webfont.woff2') format('woff2'),
+         url('Fonts/acme-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fira_sansregular';
+    src: url('Fonts/firasans-regular-webfont.woff2') format('woff2'),
+         url('Fonts/firasans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html {
+  font-family: 'fira_sansregular';
+  font-size: 10px;
+  margin: 0;
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 3.8rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.7rem;
+  line-height: 1.6;
+  word-spacing: 0.6rem;
+}
+/*Header Fonts*/
+h1,h2
+{
+  font-family: 'acmeregular';
+  letter-spacing: 0.2rem;
+}

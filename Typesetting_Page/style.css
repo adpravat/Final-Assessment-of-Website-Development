@@ -1,0 +1,164 @@
+/* General setup */
+@font-face {
+    font-family: 'bigshot_oneregular';
+    src: url('Font/bigshotone-webfont.woff2') format('woff2'),
+         url('Font/bigshotone-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'litolandregular';
+    src: url('Font/litoland_regular-webfont.woff2') format('woff2'),
+         url('Font/litoland_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+ *{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+/*Styling Fonts*/
+html
+{
+  font-family: 'litolandregular';
+  font-size:12px;
+}
+
+h1, h2
+{
+  font-family: 'bigshot_oneregular';
+  letter-spacing: 1.5px;
+}
+
+h1
+{
+  font-size: 30px;
+  text-align: center;
+}
+h2
+{
+   font-size: 20px;
+}
+p, li
+{
+   line-height:18px;
+   letter-spacing: 1.5px;
+   word-spacing: 2px;
+}
+section h2 + p
+{
+  text-indent: 20px;
+}
+/*link styling*/
+ a[href^="https"]
+ {
+  padding-right: 18px;
+  background: url(external-link-52.png) no-repeat 100% 0;
+  background-size: 12px 12px;
+ }
+a
+{
+  color: #a66;
+  text-decoration: underline;
+  outline:none;
+}
+a:link, a:visited
+{
+ color: #a66;
+ outline:none;
+}
+a:focus, a:hover
+{
+  text-decoration: none;
+  color: #a66;
+  outline:none;
+}
+ a:active
+ {
+  outline:none;
+  color: transparent;
+  text-shadow: 0px 0px 1px #E0115f,
+               0px 0px 2px #E0115f,
+               0px 0px 3px black,
+               0px 0px 4px black;
+ }
+ /*Styling List*/
+ ul, ol 
+ {
+   list-style-type: circle;
+   margin:16px 0;
+ }
+ /*Styling Nav Menu*/
+ nav ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+nav li {
+  
+  margin-bottom: 10px;
+}
+
+nav li a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 3;
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid #a66;
+}
+
+nav li a:focus, nav li a:hover {
+  color: #a66;
+}
+
+nav li a:active {
+  color: transparent;
+  text-shadow: 0px 0px 1px #E0115f,
+               0px 0px 2px #E0115f,
+               0px 0px 3px black,
+               0px 0px 4px black;
+}
+
+
